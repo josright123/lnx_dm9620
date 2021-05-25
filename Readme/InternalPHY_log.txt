@@ -1,0 +1,66 @@
+May  7 15:23:46 raspberrypi kernel: [71350.439245] [dm962] Linux Driver = V2.60.0 WITH EXTPHY 2021 CLEAN_AND_CTLPRINT
+May  7 15:23:46 raspberrypi kernel: [71350.439260] 
+May  7 15:23:46 raspberrypi kernel: [71350.439395] ++++++[dm962]+++++ dm_read_reg() 0x29 0x0a
+May  7 15:23:46 raspberrypi kernel: [71350.439540] ++++++[dm962]+++++ dm_read_reg() 0x28 0x46
+May  7 15:23:46 raspberrypi kernel: [71350.439647] ++++++[dm962]+++++ dm_read_reg() 0x2b 0x96
+May  7 15:23:46 raspberrypi kernel: [71350.439892] ++++++[dm962]+++++ dm_read_reg() 0x2a 0x21
+May  7 15:23:46 raspberrypi kernel: [71350.444070] [dm96] Chk mac addr 00:60:6e:00:01:25
+May  7 15:23:46 raspberrypi kernel: [71350.444089] [dm96] [00] [60] [6e] [00] [01] [25] 
+May  7 15:23:46 raspberrypi kernel: [71350.478925] 
+May  7 15:23:46 raspberrypi kernel: [71350.478925] [dm96] 00 60 6e 00 01 25 51 55 46 0a 21 96 8f 00 84 41 
+May  7 15:23:46 raspberrypi kernel: [71350.478925] [dm96] 10 22 21 32 3a 0a 5a 00 07 00 ff bb dd ff 00 7e 
+May  7 15:23:46 raspberrypi kernel: [71350.478925] [dm96] 22 03 44 00 41 00 56 00 49 00 43 00 4f 00 4d 00 
+May  7 15:23:46 raspberrypi kernel: [71350.478925] [dm96] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+May  7 15:23:46 raspberrypi kernel: [71350.478925] [dm96] 00 00 32 03 44 00 4d 00 39 00 36 00 32 00 31 00 
+May  7 15:23:46 raspberrypi kernel: [71350.478925] [dm96] 41 00 20 00 55 00 53 00 42 00 20 00 54 00 6f 00 
+May  7 15:23:46 raspberrypi kernel: [71350.478925] [dm96] 20 00 46 00 61 00 73 00 74 00 45 00 74 00 68 00 
+May  7 15:23:46 raspberrypi kernel: [71350.478925] [dm96] 65 00 72 00 0a 03 30 00 30 00 30 00 32 00 ff ff 
+May  7 15:23:46 raspberrypi kernel: [71350.486881] 
+May  7 15:23:46 raspberrypi kernel: [71350.486881] [dm96] 00 60 6e 00 01 25 51 55 46 0a 21 96 8f 00 84 41 
+May  7 15:23:46 raspberrypi kernel: [71350.486881] [dm96] 10 22 21 32 3a 0a 5a 00 07 00 ff bb dd ff 00 7e 
+May  7 15:23:46 raspberrypi kernel: [71350.486891] 
+May  7 15:23:46 raspberrypi kernel: [71350.487740] [dm96] DM9_NREV= 2
+May  7 15:23:46 raspberrypi kernel: [71350.487999] [dm96] 9620 Mode = 128
+May  7 15:23:46 raspberrypi kernel: [71350.488065] [dm96] 9620 EXT_PHY = 0
+May  7 15:23:46 raspberrypi kernel: [71350.488296] 
+May  7 15:23:46 raspberrypi kernel: [71350.488306] ([dm962] Linux Driver = V2.60.0 WITH EXTPHY 2021 CLEAN_AND_CTLPRINT)
+May  7 15:23:46 raspberrypi kernel: [71350.488315] 
+May  7 15:23:46 raspberrypi kernel: [71350.494813] [dm96] 9620 REGF4H (USB_CTRL= Get 0x20) (need 0x20 to have USB INT)
+May  7 15:23:46 raspberrypi kernel: [71350.497873] dm9620 1-1.3:1.0 eth1: register 'dm9620' at usb-0000:01:00.0-1.3, Davicom DM9620 USB Ethernet, 00:60:6e:00:01:25
+May  7 15:23:46 raspberrypi kernel: [71350.498096] usbcore: registered new interface driver dm9620
+May  7 15:23:47 raspberrypi kernel: [71350.610630] 
+May  7 15:23:47 raspberrypi kernel: [71350.610641] +[dm96 open.s]- (TRIP 0 on-ticks 0000)
+May  7 15:23:47 raspberrypi kernel: [71350.610647] +[dm96 open]-   (play get link_up & carrier-on)
+May  7 15:23:47 raspberrypi kernel: [71350.610654] +[dm96 open.e]- (TRIP 0 on-ticks 0000)
+May  7 15:23:47 raspberrypi kernel: [71350.610659] 
+May  7 15:23:47 raspberrypi kernel: [71350.612924] dm9620 1-1.3:1.0 eth1: link down
+May  7 15:23:47 raspberrypi kernel: [71350.622963] dm9: #PHYEXT 0 PHYID 1 phyid1 ffff 
+May  7 15:23:47 raspberrypi kernel: [71350.622973] dm9: #PHYEXT 0 PHYID 1 phyid1 ffff, V2.60.0 WITH EXTPHY 2021 CLEAN_AND_CTLPRINT 
+May  7 15:23:47 raspberrypi kernel: [71350.622980] dm9: status ===[ status 0, netif_carrier 0 ]===
+May  7 15:23:48 raspberrypi kernel: [71351.627081] [TRIGG 1][TOGGLE][-] dm9 lpa 0000
+May  7 15:23:48 raspberrypi kernel: [71351.627100] [TRIGG 1][TOGGLE][x] dm9 bmr 7849 SPEC_CFG 0810
+May  7 15:23:48 raspberrypi kernel: [71351.627113] .
+May  7 15:23:48 raspberrypi kernel: [71352.167161] [EVENT 3][FOUND][carrier-off] dm9 link up found
+May  7 15:23:48 raspberrypi kernel: [71352.170314] IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+May  7 15:23:48 raspberrypi kernel: [71352.171822] dm9620 1-1.3:1.0 eth1: link up, 100Mbps, full-duplex, lpa 0x45E1
+May  7 15:23:48 raspberrypi kernel: [71352.173742]  TRIGG 3 dm9 lpa 45e1
+May  7 15:23:54 raspberrypi kernel: [71357.915030] dm9620 1-1.3:1.0 eth1: link down
+May  7 15:23:55 raspberrypi kernel: [71358.941294] [TRIGG 1][TOGGLE][-] dm9 lpa 0000
+May  7 15:23:55 raspberrypi kernel: [71358.941315] [TRIGG 1][TOGGLE][x] dm9 bmr 7849 SPEC_CFG 0810
+May  7 15:23:55 raspberrypi kernel: [71358.941331] .
+May  7 15:23:56 raspberrypi kernel: [71359.949214] [TRIGG 1][TOGGLE][-] dm9 lpa 0000
+May  7 15:23:56 raspberrypi kernel: [71359.949237] [TRIGG 1][TOGGLE][x] dm9 bmr 7849 SPEC_CFG 0830
+May  7 15:23:56 raspberrypi kernel: [71359.949253] .
+May  7 15:23:57 raspberrypi kernel: [71360.964573] [TRIGG 1][TOGGLE][-] dm9 lpa 0000
+May  7 15:23:57 raspberrypi kernel: [71360.964583] [TRIGG 1][TOGGLE][x] dm9 bmr 7849 SPEC_CFG 0810
+May  7 15:23:57 raspberrypi kernel: [71360.964589] .
+May  7 15:23:58 raspberrypi kernel: [71361.973495]  TRIGG 1 dm9 lpa 05e1
+May  7 15:23:59 raspberrypi kernel: [71362.989716]  TRIGG 1 dm9 lpa 05e1
+May  7 15:24:00 raspberrypi kernel: [71363.997794]  TRIGG 1 dm9 lpa 05e1
+May  7 15:24:01 raspberrypi kernel: [71365.013947]  TRIGG 1 dm9 lpa 05e1
+May  7 15:24:02 raspberrypi kernel: [71366.022159]  TRIGG 1 dm9 lpa 05e1
+May  7 15:24:03 raspberrypi kernel: [71367.038301]  TRIGG 1 dm9 lpa 05e1
+May  7 15:24:04 raspberrypi kernel: [71367.857475] [EVENT 3][FOUND][carrier-off] dm9 link up found
+May  7 15:24:04 raspberrypi kernel: [71367.862933] dm9620 1-1.3:1.0 eth1: link up, 100Mbps, full-duplex, lpa 0x45E1
+May  7 15:24:04 raspberrypi kernel: [71367.864833]  TRIGG 3 dm9 lpa 45e1
+

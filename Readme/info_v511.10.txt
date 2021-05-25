@@ -1,0 +1,1 @@
+#define LNX_KERNEL_v511	1

@@ -1,0 +1,43 @@
+2009
+ test by hank_dm9620_0731
+ test by hank_dm9620_0917
+ test by hank_dm9620_1010
+2010 
+ test by hank_dm9620_0708
+ test by hank_dm9620_1224
+2011
+ solove compiler issue by stone_dm9620_0617 (Linux 2.6.35)
+2011
+ test by stone_dm9620_0714 update for ping had packet loss and error; comiler issue for linux 2.6.35 and 2.6.33
+2011/09 
+ solove ethtool eeprom write error bug and compiler issue (Linux 2.6.32.x) by Hank.
+2011/10
+ fixed dm_write_eeprom_word deverr compiler error in Linux 2.6.38!
+2012/03
+ fixed the crc of "dm9620_set_multicast" bug.
+2012/04
+ add 802.3az function for dm9621a
+2012/04
+ add PID 0x1269 support CDC mode
+2012/05
+ add PID 0x0269 support CDC mode
+2012/05
+ remove debug message and remove set_wol clock setup
+2013/02
+ Support Linux 3.6.9
+2013/04
+ Support Jfchu TX_work_around patch (Update to V2.42)
+2013/08
+ Special suport for DM9621A in the table 'products' (Update to V2.43)
+ Fix the function TxStyle(), correct to be (len%2) from (len%1) 
+  20131211 (Update to V2.45)
+20140617
+ Formal version series, suitable to DM9620/21 E3 driver,
+ there is no extra VID/PID list insided. (Update to V2.51)
+20141008
+ EEPROM_Utility_support (Update to V2.59)
+20141008~20141009
+ EXT_MII_support  (Update to V2.59.1)
+ EXT_MII_support  (Update to V2.59.2)
+20161019
+ Link_stress_test_support  (Update to V2.59.3E3.3(5))
